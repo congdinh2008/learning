@@ -1,0 +1,27 @@
+Requirements:
+    Cho phep nguoi dung nhap vao Year, Month
+    Dựa vào tháng và năm để in ra số ngày của tháng năm đó
+Output:
+    If(Month in 1,3,5,7,8,10,12) 
+        printf 31 ngày
+    Nếu như là tháng 4,6,9,11
+        In ra có 30 ngày
+    Nếu như là tháng 2:
+        Nếu là năm nhuận
+            Có 29 ngày
+        Nếu là năm không nhuận/Ngược lại
+            Có 28 ngày
+    Còn lại:
+        Giá trị nhập không hợp lệ
+
+int number = 1;
+switch(number)
+    case 1:
+        do something;
+        break;
+    case 2:
+        do something;
+        break;
+    default:
+        do something;
+        break;
